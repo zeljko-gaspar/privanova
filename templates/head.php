@@ -7,7 +7,7 @@
 <meta name="language" content="English">
 <meta name="copyright" content="">
 
-<title>Tthos Tracking</title>
+<title>PRIVANOVA</title>
 <!-- Google -->
 <meta name="Googlebot" content="index, follow">
 <meta name="revisit-after" content="3">
@@ -37,10 +37,10 @@
 
 
 <link href="css/bootstrap-grid.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
+<link href="css/style.css" rel="stylesheet">
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
