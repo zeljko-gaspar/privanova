@@ -17,7 +17,7 @@
             <div class="container-fluid hero-container">
                 <div class="row hero-content">
                     <div class="col-12 hero-img-item">
-                       <img src="images/project-full-hero-img.jpg" alt="Privanova" class="img-fluid" />
+                       <img src="images/service-full-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                 </div>
             </div>
@@ -36,15 +36,11 @@
                 </div>
                 <div class="row txt-editor-content">
                     <div class="col-12">
-                       <h3>Challenge</h3>
-                       <p>With the rise and spread of ICT-enabled crimes and illicit financial flows (IFFs), law enforcement agencies (LEAs) and financial intelligence units (FIUs) need innovative policing tools in the virtual sphere as well as skills, organisational and regulatory adaptations to counter these threats. Detecting and tracing hidden and illicit money flows are notoriously difficult, as organised crime networks operate on a global scale and use legal loopholes, as well as technical innovations to protect their activities.</p>
-                       <h3>Objectives</h3>
-                       <p>In <a href="https://cordis.europa.eu/project/id/101022004">TRACE</a>, we will address these challenges, by improving investigation tools and/or systems in terms of their quality and speed, co-developed with LEAs, responding to traditional and emerging forms of organised crime, <a href="https://www.interpol.int/en/Crimes/Financial-crime/Money-laundering">money laundering</a> and <a href="https://www.europol.europa.eu/about-europol/european-counter-terrorism-centre-ectc">terrorist financing</a>. We will address these challenges, by providing not only state of the art tools to trace illicit money trails, but by providing a flexible modular open-source platform, which can be used to increase the innovation capabilities of LEAs, including advanced techwatch and foresight capabilities to improve LEAs’ innovation rate in AI services. Finally, the integrity and accountability of these AI services are increased, as the trail of input and/or output of data can always be traced and identified if needed.</p>
-                       <h3>Our Role</h3>
-                       <p>With expertise in cybercrime, information security, <a href="http://localhost/privanova/services/">privacy and data protection</a>, Privanova brings a myriad of experience toward alleviating illicit money flows through the TRACE project. In addition, our involvement in similar project of interest to the international law enforcement community such as <a href="http://localhost/privanova/eu-projects/cc-driver/">CC-DRIVER</a>, <a href="http://localhost/privanova/eu-projects/iot-ngin/">IoT-NGIN</a> and <a href="http://localhost/privanova/eu-projects/marvel/">MARVEL</a> will be of additional benefit to TRACE.</p>
-                        <p>Drawing upon our professional experiences from <a href="https://www.interpol.int/">INTERPOL</a> and network of high-level LEA officials we created during our tenure there, we will support the operation of the consortium by ensuring the interaction between them and the LEAs. This will enable both sides to address the issues related to the development of tools for locating and mapping hidden service directories, forensic analysis and data provenance models. Besides, Privanova will establish an ethics advisory board comprising of four external ethicists as well as two consortium partners.</p>
-                        <p>In collaboration with LEA partners, Stakeholder Board members and other law enforcement experts we will invite to contribute to the project, Privanova will evaluate and maintain the ethics compliance across all consortium activities. This will directly benefit the technical partners responsible for ensuring that illicit money flows are detected early, their threat level is analysed, and preventative actions are enabled to reduce the negative impact of such flows.&nbsp; The project officially started on July 1<sup>st</sup> 2021, with the <a href="http://localhost/privanova/tackling-the-illicit-financial-flows-the-trace-project-starts/">TRACE Kick Off meeting</a> being held virtually several days later.</p>
-                       <p><img src="images/eu-logo.png" alt="Privanova" class="img-fluid" />This project has received funding from the European Union’s Horizon 2020 research and Innovation programme under grant agreement N°101022004. All information on this website reflects only the authors’ view. The Agency and the Commission are not responsible for any use that may be made of the information this website contains.</p>
+                       <h3>Challenges</h3>
+                       <p>Following a compliance order from an EU-based Data Protection Authority (DPA), a Serbian IT Startup running an online gaming platform needed to implement GDPR compliance programme and nominate a DPO within a relatively short deadline.</p>
+                       <h3>Solutions</h3>
+                       <p>After the initial meeting with the client, Privanova promptly provided the client with several key policies including the Company’s Data Protection Policy. In addition a Privacy Notice and a Cookie Notice for the Website were drafted. Within the deadline, we managed to test and publish a cookie consent management system for the client’s website.</p>
+                       <p>At the same time, we assisted the client to recruit and nominate a DPO in accordance with the GDPR requirements. Finally, we helped the client provide feedback to the EU-based DPA, thus avoiding further penalties and fees.</p>                       
                     </div>
                 </div>
             </div>
@@ -55,19 +51,19 @@
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/call-icon.png" alt="Privanova" class="img-fluid" />
+                                <img src="images/polices-icon.png" alt="Privanova" class="img-fluid" />
                             </div>
-                            <h2>Call</h2>
-                            <p>SU-SEC-2020</p>
+                            <h2>Policies</h2>
+                            <p>In accordance with Article 12 of the GDPR, a complete set of policies was drafted.</p>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/grant-icon.png" alt="Privanova" class="img-fluid" />
+                                <img src="images/cookies-icon.png" alt="Privanova" class="img-fluid" />
                             </div>
-                            <h2>Grant ID</h2>
-                            <p>101022004</p>
+                            <h2>Cookies</h2>
+                            <p>Cloud-based cookie consent management was implemented on the client’s website.</p>
                         </div>
                     </div>
                     <div class="services-item col-3">
@@ -75,8 +71,8 @@
                             <div class="img-holder">
                                 <img src="images/duration-icon.png" alt="Privanova" class="img-fluid" />
                             </div>
-                            <h2>Duration</h2>
-                            <p>1 July 2021- 30 July 2024</p>
+                            <h2>DPO</h2>
+                            <p>Article 37 GDPR requirements were met by recruiting a Data Protection Officer.</p>
                         </div>
                     </div>
                     <div class="services-item col-3">
@@ -84,152 +80,21 @@
                             <div class="img-holder">
                                 <img src="images/euro-icon.png" alt="Privanova" class="img-fluid" />
                             </div>
-                            <h2>Budget</h2>
-                            <p>€ 6 980 082,50</p>
+                            <h2>DPA</h2>
+                            <p>Communication with the local Data Protection Authority was ensured on behalf of the client.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="cta-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <a href="javascript:;">Download PDF</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="heading-holder">
-                            <h2>Consortium</h2>
-                        </div>
-                        <ul class="flags-container">
-                            <li>
-                                <span>COVENTRY UNIVERSITY</span>
-                                <img src="images/gb-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>TRILATERAL RESEARCH</span>
-                                <img src="images/gb-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>AIT AUSTRIAN INSTITUTE OF TECHNOLOGY GMBH</span>
-                                <img src="images/at-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>GOBIERNO VASCO – DEPARTAMENTO SEGURIDAD</span>
-                                <img src="images/es-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>UNIVERSIDADE NOVA DE LISBOA</span>
-                                <img src="images/pt-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>ASTON UNIVERSITY</span>
-                                <img src="images/gb-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>TAX JUSTICE NETWORK LIMITED</span>
-                                <img src="images/gb-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>CIN CONSULT UNTERNEHMENSBERATUNGS GMBH</span>
-                                <img src="images/at-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>PROFLOW GMBH</span>
-                                <img src="images/at-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>PRIVANOVA SAS</span>
-                                <img src="images/fr-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>HOCHSCHULE FUR DEN OFFENTLICHEN DIENST IN BAYERN</span>
-                                <img src="images/de-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>VIENNA CENTRE FOR SOCIETAL SECURITY – VICESSE, WIENER ZENTRUM FUR SOZIALWISSENSCHAFTLICHE SICHERHEITSFORSCHUNG</span>
-                                <img src="images/at-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>POLICEJNI PREZIDIUM CESKE REPUBLIKY</span>
-                                <img src="images/cz-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>FINOPZ LTD</span>
-                                <img src="images/gb-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>MAKSU- JA TOLLIAMET</span>
-                                <img src="images/ee-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>SYSTRAN SA</span>
-                                <img src="images/fr-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                            <li>
-                                <span>EXPERT SYSTEM IBERIA SL</span>
-                                <img src="images/es-flag.png" alt="Privanova" class="img-fluid" />
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="">
-            <div class="container">
-                <div class="row">
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/cordis-icon.png" alt="Privanova" class="img-fluid" />
-                            </div>
-                            <a href="javascript:;">Cordis</a>
-                        </div>
-                    </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/homepage-icon.png" alt="Privanova" class="img-fluid" />
-                            </div>
-                            <a href="javascript:;">Homepage</a>
-                        </div>
-                    </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/twitter-icon.png" alt="Privanova" class="img-fluid" />
-                            </div>
-                            <a href="javascript:;">Twitter</a>
-                        </div>
-                    </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/linkedin-icon.png" alt="Privanova" class="img-fluid" />
-                            </div>
-                            <a href="javascript:;">Linkedin</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-
-
 
         
         <section class="cta-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Question about this project?</h2>
-                        <a href="javascript:;">Contact us</a>
+                        <h2>Facing similar challenges?</h2>
+                        <a href="javascript:;">Let us help</a>
                     </div>
                 </div>
             </div>

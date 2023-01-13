@@ -10,19 +10,31 @@
 <link href="css/custom.css" rel="stylesheet">
 </head>
 
-<body class="home-page">
+<body class="services-group-page">
     <?php include('templates/header.php'); ?>
     <main>
         <section class="hero-section">
             <div class="container-fluid hero-container">
                 <div class="row hero-content">
                     <div class="col-12 hero-img-item">
-                       <img src="images/home-hero-img.jpg" alt="Privanova" class="img-fluid" />
+                       <img src="images/services-group-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                     <div class="col-12 hero-txt-item">
-                        <h1>Privanova</h1>
-                        <h2>Research & Consulting</h2>
+                        <h1>Services</h1>
+                        <h2>Beyond<br> GDPR Compliance</h2>
                         <a href="contact-us.php">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="description-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <p>Modern data protection regulations impose a great number of obligations businesses must comply with. To help you meet these obligations, our customised solutions cover&nbsp;<strong>the whole life-cycle of personal data</strong>: from collection and consent recording, through data mapping and information asset management, to incident response and breach reporting.</p>
+                    </div>
+                    <div class="col-6">
+                        <p>Following your requirements, we tailor our services to fit your privacy and data protection compliance goals. Besides the GDPR requirements, our services cover all of your privacy compliance goals, making sure you can operate your business safely,&nbsp;<strong>protect your information assets</strong>, and continuously demonstrate&nbsp;<strong>compliance</strong>&nbsp;and&nbsp;<strong>accountability</strong>.</p>
                     </div>
                 </div>
             </div>
@@ -32,29 +44,29 @@
                 <div class="services-content row">
                     <div class="services-item col-3">
                         <div class="txt-holder">
-                            <h2>Research</h2>
-                            <p>Innovation at the intersection of ethics, privacy, law enforcement, technology and society.</p>
+                            <h2>GDPR<br>CONSULTING</h2>
+                            <p>Privacy and data protection services designed to fit your GDPR compliance goals.</p>
                             <a href="javascript:;">Read more</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
-                            <h2>Management</h2>
-                            <p>Full-cycle project management from conceptualisation to exploitation.</p>
+                            <h2>DPO<br>ON DEMAND</h2>
+                            <p>Cost-effective, outsourced DPO services from experienced privacy professionals.</p>
                             <a href="javascript:;">Read more</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
-                            <h2>Research</h2>
-                            <p>Privacy compliance and risk management services with particular focus on GDPR.</p>
+                            <h2>RISK<br>MANAGEMENT</h2>
+                            <p>Interdisciplinary, Privacy by Design services combining legal and technical solutions.</p>
                             <a href="javascript:;">Read more</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
-                            <h2>Insights</h2>
-                            <p>High-quality, informative business insights, position papers and guidance.</p>
+                            <h2>PRIVACY<br>TRAINING</h2>
+                            <p>Customised, interactive privacy training for executives and teams handling personal data.</p>
                             <a href="javascript:;">Read more</a>
                         </div>
                     </div>
@@ -65,15 +77,190 @@
             <div class="about-us-container container-fluid">
                 <div class="about-us-content row">
                     <div class="img-holder col-6">
-                        <img src="images/index-about-us-section-img.jpg" alt="Privanova" class="img-fluid" />
+                        <img src="images/service-group-consulting-section.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                     <div class="txt-holder col-6">
-                        <h2>What We Do</h2>
-                        <p>Privanova is the leading provider of Privacy Compliance and Risk Management Solutions, with a particular focus on the GDPR.</p>
-                        <p>We offer full range of services around addressing your privacy, data protection and information security needs.</p>
-                        <p>We provide our clients with the quality compliance solutions, designed to help them solve critical issues in their data processing activities.</p>
-                        <a href="javascript:;">Services</a>
+                        <h2>GDPR Consulting</h2>
+                        <p>Whether your business relies on the processing of personal data and you want to comply with the GDPR or you already have a compliance plan but need help from a technical perspective, then you are a good candidate for our privacy compliance solutions.</p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section">
+            <div class="services-container container-fluid">
+                <div class="services-content row">
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>GDPR<br>READINESS</h2>
+                            <p>GDPR Readiness Assessment</p>
+                            <p>Gap Analysis</p>
+                            <p>Business Impact Assessment</p>
+                            <p>GDPR Compliance Roadmap</p>
+                            <p>Budgeting and Team Planning</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>STRATEGY<br>PLANNING</h2>
+                            <p>GDPR Programme Planning</p>
+                            <p>Governance & Reporting</p>
+                            <p>DPO Recruitment Assistance</p>
+                            <p>Information Asset Inventory</p>
+                            <p>Processing Activities Record</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>DEMONSTRATING<br>ACCOUNTABILITY</h2>
+                            <p>Privacy Policies & Notices</p>
+                            <p>Model Clauses & Agreements</p>
+                            <p>International Data Transfers</p>
+                            <p>Data Subject Requests</p>
+                            <p>Data Breach Notifications</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>LONG-TERM<br>COMPLIANCE</h2>
+                            <p>Training of Managers & Teams</p>
+                            <p>Awareness Rising Activities</p>
+                            <p>Audit Preparation Plan</p>
+                            <p>Periodic Auditing</p>
+                            <p>Change Management</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us-section">
+            <div class="about-us-container container-fluid">
+                <div class="about-us-content row">
+                    <div class="img-holder col-6">
+                        <img src="images/service-group-demand-sectopn.jpg" alt="Privanova" class="img-fluid" />
+                    </div>
+                    <div class="txt-holder col-6">
+                        <h2>DPO On Demand</h2>
+                        <p>The General Data Protection Regulation (GDPR) made it possible for a business to externalise the role of a Data Protection Officer (DPO).</p>
+                        <p>Privanova’s DPO On Demand service includes the tasks described in the GDPR and more. It represents a very comprehensive, cost-effective way for your organisation to achieve desired levels of compliance while focusing on the core business activities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="cta-section">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                        <h2><strong>Interested in our GDPR Consulting?</strong></h2>
+                        <a href="javascript:;">Let's talk!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us-section">
+            <div class="about-us-container container-fluid">
+                <div class="about-us-content row">
+                    <div class="img-holder col-6">
+                        <img src="images/service-group-risk-management-section.jpg" alt="Privanova" class="img-fluid" />
+                    </div>
+                    <div class="txt-holder col-6">
+                        <h2>Risk Management</h2>
+                        <p>Risk management is key to successful GDPR compliance. Regardless of the size of your organisation or project, we offer you the means to integrate data governance, management, and assurance of performance, with risk and compliance activities.</p>
+                        <p>Privanova’s Risk Management Services are based on a business-oriented, Privacy by Design approach.</p>
+                        <a href="javascript:;">Get a quote!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services-section">
+            <div class="services-container container-fluid">
+                <div class="services-content row">
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>PRIVACY<br>BY DESIGN</h2>
+                            <p>PbD Compliance Check</p>
+                            <p>Operationalising PbD</p>
+                            <p>Privacy Engineering</p>
+                            <p>Privacy Enhancing Technologies</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>IMPACT<br>ASSESSMENTS</h2>
+                            <p>Privacy Impact Assessment</p>
+                            <p>DPIA</p>
+                            <p>InfoSec Assessment</p>
+                            <p>Enterprise Risk Gap Analysis</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>3RD-PARTY<br>RISKS</h2>
+                            <p>3rd-Party Risk Mapping</p>
+                            <p>Vendor GDPR Compliance</p>
+                            <p>Vendor Assessment Framework</p>
+                            <p>Periodic Vendor Checks</p>
+                        </div>
+                    </div>
+                    <div class="services-item col-3">
+                        <div class="txt-holder">
+                            <h2>INCIDENT<br>RESPONSE</h2>
+                            <p>Data Breach Investigation</p>
+                            <p>Response Plan Preparation</p>
+                            <p>Data Breach Reporting</p>
+                            <p>Business Impact Analysis</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about-us-section">
+            <div class="about-us-container container-fluid">
+                <div class="about-us-content row">
+                    <div class="img-holder col-6">
+                        <img src="images/service-section-privacy-training-section.jpg" alt="Privanova" class="img-fluid" />
+                    </div>
+                    <div class="txt-holder col-6">
+                        <h2>Privacy Training</h2>
+                        <p>Privanova provides data protection trainings by the experienced, practicing professionals and DPOs.</p>
+                        <p>Whether online or in-person you’ll gain knowledge of critical privacy concepts and raise awareness across the organization.</p>
+                        <p>Training is appropriate for executives, managers, and teams who are directly involved in the processing of personal data or need to expand their privacy knowledge.</p>
+                        <a href="javascript:;">Get a quote!</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="current-projects-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 heading-holder">
+                        <h3>Case Studies</h3>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 project-item">
+                        <div class="img-holder">
+                            <img src="images/current-projects-img-01.jpg" alt="Trace" class="img-fluid" />
+                        </div>
+                        <div class="txt-holder">
+                            <h3>GDPR Compliance for a Gaming Startup</h3>
+                        </div>
+                    </div>
+                    <div class="col-4 project-item">
+                        <div class="img-holder">
+                            <img src="images/current-projects-img-02.jpg" alt="Trace" class="img-fluid" />
+                        </div>
+                        <div class="txt-holder">
+                            <h3>DPIA for an eCommerce Fidelity Program</h3>
+                        </div>
+                    </div>
+                    <div class="col-4 project-item">
+                        <div class="img-holder">
+                            <img src="images/current-projects-img-03.jpg" alt="Trace" class="img-fluid" />
+                        </div>
+                        <div class="txt-holder">
+                            <h3>Data Sharing for a Pharma Company</h3>
+                        </div>
+                    </div>                  
                 </div>
             </div>
         </section>
@@ -82,8 +269,7 @@
                 <div class="row">
                     <div class="col-12">
                         <h2>Risks of Non-Compliance</h2>
-                        <p>Infringement on GDPR carries fines of up to €20M or up to 4% of global annual turnover, whichever is greater. These fines can easily bankrupt a business.</p>
-                        <p>It is essential not to ignore the GDPR requirements, and to constantly demonstrate compliance and accountability.</p>
+                        <p>Infringement on GDPR carries fines of up to €20M or up to 4% of global annual turnover, whichever is greater. These fines can easily bankrupt a business. It is essential not to ignore the GDPR requirements, and to constantly demonstrate compliance and accountability.</p>
                     </div>
                 </div>
                 <div class="row risk-items-content">
@@ -126,98 +312,6 @@
                             <p>Of reputation</p>
                             <p>And business</p>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="projects-section">
-            <div class="projects-container container-fluid">
-                <div class="projects-content row">
-                    <div class="img-holder col-6">
-                        <img src="images/index-projects-section-img.jpg" alt="Privanova" class="img-fluid" />
-                    </div>
-                    <div class="txt-holder col-6">
-                        <h2>EU Projects</h2>
-                        <p>Participation in EU-funded, interdisciplinary research projects is one of our core activities.</p>
-                        <p>We are experienced in managing the whole EU project life-cycle: from consortium building and proposal drafting to communication, dissemination and exploitation.</p>
-                        <a href="javascript:;">EU Projects</a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="current-projects-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 heading-holder">
-                        <h3>Current Projects</h3>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-01.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>Trace</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-02.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>CC-driver</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-03.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>Marvel</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-04.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>AI4HealthSec</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-05.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>DigiCare4You</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-06.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>Cyrene</h3>
-                        </div>
-                    </div>
-                    <div class="col-4 project-item">
-                        <div class="img-holder">
-                            <img src="images/current-projects-img-07.jpg" alt="Trace" class="img-fluid" />
-                        </div>
-                        <div class="txt-holder">
-                            <h3>IoT-NGIN</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="cta-section">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>We should work together!</h2>
-                        <a href="javascript:;">Learn why</a>
                     </div>
                 </div>
             </div>
