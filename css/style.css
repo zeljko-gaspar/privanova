@@ -33,7 +33,6 @@ body {
 	font-size: 17px;
     color: var(--second-color);
     font-weight: 400;
-    /* padding-top: 175px; */
     transition: var(--main-transition);
 }
 a {
@@ -47,6 +46,9 @@ a:focus {
 }
 strong, b {
     font-weight: 600;
+}
+html {
+    scroll-behavior: smooth;
 }
 
 /* bootstrap */
@@ -169,6 +171,12 @@ h6 {
 .mb-70 {
     margin-bottom: 70px;
 }
+.mb-100 {
+    margin-bottom: 100px;
+}
+.mb-120 {
+    margin-bottom: 120px;
+}
 .mb-140 {
     margin-bottom: 140px;
 }
@@ -177,6 +185,11 @@ h6 {
 }
 .mt-300 {
     margin-top: 300px;
+}
+.mw-710 {
+    width: 710px;
+    max-width: 100%;
+    margin: auto;
 }
 .mw-1190 {
     width: 1190px;
@@ -630,10 +643,14 @@ body.loaded .loader {
     max-width: 100%;
 }
 .text-left {
-    text-align: left;
+    text-align: left !important;
 }
 .text-center {
     text-align: center;
+}
+img.float-left {
+    float: left;
+    margin: 0 20px 10px 0;
 }
 
 /* animations */
@@ -809,6 +826,45 @@ body.loaded .loader {
     font-size: 17px;
     margin-bottom: 35px;
 }
+.txt-box-section .txt-box-content.second-bg-color .txt-box-item-wrapper .txt-holder h2 {
+    color: var(--main-color);
+}
+.txt-box-section .txt-box-content.second-bg-color .txt-box-item-wrapper .txt-holder p {
+    margin-bottom: 0;
+    color: #fff;
+}
+.txt-box-section .heading-holder h3 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 42px;
+}
+.txt-box-section .txt-box-content.with-heading .txt-box-item-wrapper {
+    padding: 0 55px;
+}
+.txt-box-section .txt-box-content.with-heading {
+    padding: 80px 0;
+}
+.txt-box-section .txt-box-content.with-heading .txt-box-item-wrapper .txt-holder p {
+    margin-bottom: 0;
+}
+.txt-box-section .txt-box-content.with-heading .heading-holder h3 {
+    margin-bottom: 70px;
+}
+.txt-box-section .txt-box-content.gray-bg-1-color {
+    background: #ececec;
+}
+.txt-box-section .txt-box-content.gray-bg-2-color {
+    background: #dddddd;
+}
+.txt-box-section .txt-box-content.gray-bg-3-color {
+    background: #d0d0d0;
+}
+.txt-box-section .txt-box-content.white-bg-color {
+    background: #fff;
+}
+.txt-box-section .txt-box-content.white-bg-color .txt-box-item-wrapper .txt-holder h2 {
+    color: var(--main-color);
+}
 
 /* img txt section */
 .img-txt-section .txt-holder .txt-holder-wrapper {
@@ -845,6 +901,10 @@ body.loaded .loader {
     margin-bottom: 30px;
     font-weight: 400;
 }
+.txt-icons-box-section .txt-holder.numbers h2 {
+    color: #fff;
+    font-size: 51px;
+}
 .txt-icons-box-section .txt-holder p {
     color: #fff;
     margin-bottom: 10px;
@@ -875,6 +935,61 @@ body.loaded .loader {
     font-weight: 400;
     text-transform: uppercase;
     line-height: 1;
+}
+.txt-icons-box-section.main-bg-color {
+    padding: 60px 60px;
+}
+.txt-icons-box-section.main-bg-color .icons-box-content .icons-box-item .img-holder {
+    margin-bottom: 50px;
+}
+.txt-icons-box-section.main-bg-color .icons-box-content .icons-box-item .img-holder i {
+    color: var(--second-color);
+    font-size: 40px;
+}
+.txt-icons-box-section.main-bg-color .txt-holder h2 {
+    color: var(--second-color);
+    font-size: 20px;
+}
+.txt-icons-box-section.main-bg-color .icons-box-content .icons-box-item .txt-holder p {
+    color: var(--second-color);
+    font-size: 17px;
+    text-transform: none;
+}
+
+/* txt editor section */
+.txt-editor-section {
+    padding: 80px 0;
+}
+.txt-editor-section .heading-holder h1 {
+    color: var(--main-color);
+    text-align: center;
+    font-family: var(--third-font-family);
+    font-weight: 700;
+    font-size: 42px;
+}
+.txt-editor-section .txt-editor-content h3 {
+    font-weight: 400;
+    font-size: 32px;
+    margin: 27px 0 18px 0;
+}
+.txt-editor-section .txt-editor-content p {
+    margin-bottom: 10px;
+}
+.txt-editor-section .txt-editor-content p.img-cation {
+    font-style: italic;
+    line-height: 1;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.txt-editor-section .txt-editor-content img {
+    max-width: 100%;
+}
+.txt-editor-section .txt-editor-content a {
+    color: var(--main-color);
+    transition: var(--main-transition);
+}
+.txt-editor-section .txt-editor-content a:hover {
+    color: var(--second-color);
 }
 
 /* card section */
@@ -908,7 +1023,13 @@ body.loaded .loader {
     font-size: 20px;
     font-weight: 700;
     color: var(--main-color);
-    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.card-section .card-item .txt-holder h3:last-child {
+    margin-bottom: 0;
+}
+.card-section .card-item .txt-holder p {
+    color: #fff;
 }
 
 /* cta-section */
@@ -923,9 +1044,11 @@ body.loaded .loader {
 .cta-section h2 {
     line-height: 42px;
     font-weight: 400;
-    color: #fff;
     font-size: 42px;
     margin-bottom: 30px;
+}
+.cta-section.second-bg-color h2 {
+    color: #fff;
 }
 
 /* description section */

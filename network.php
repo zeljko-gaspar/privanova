@@ -24,7 +24,7 @@
         </section>
         <section class="txt-editor-section">
             <div class="container">
-                <div class="row">
+                <div class="row mb-100">
                     <div class="col-12">
                         <div class="heading-holder">
                             <h1>Network</h1>

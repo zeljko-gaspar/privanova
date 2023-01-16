@@ -41,7 +41,7 @@
         </section>
         <section class="txt-box-section">
             <div class="container-fluid">
-                <div class="different-colors row">
+                <div class="txt-box-content different-colors row">
                     <div class="txt-box-item col-3">
                         <div class="txt-box-item-wrapper">
                             <div class="txt-holder">
@@ -98,7 +98,7 @@
         </section>
         <section class="txt-box-section">
             <div class="container-fluid">
-                <div class="row second-bg-color">
+                <div class="txt-box-content row second-bg-color">
                     <div class="txt-box-item col-3">
                         <div class="txt-box-item-wrapper">
                             <div class="txt-holder">
@@ -170,7 +170,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2><strong>Interested in our GDPR Consulting?</strong></h2>
+                        <h2>Interested in our <strong>GDPR Consulting?</strong></h2>
                         <a class="border-btn" target="_blank" href="mailto:contact@privanova.com">Let's talk!</a>
                     </div>
                 </div>
@@ -193,43 +193,51 @@
                 </div>
             </div>
         </section>
-        <section class="services-section">
-            <div class="services-container container-fluid">
-                <div class="services-content row">
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <h2>PRIVACY<br>BY DESIGN</h2>
-                            <p>PbD Compliance Check</p>
-                            <p>Operationalising PbD</p>
-                            <p>Privacy Engineering</p>
-                            <p>Privacy Enhancing Technologies</p>
+        <section class="txt-box-section">
+            <div class="container-fluid">
+                <div class="txt-box-content row second-bg-color">
+                    <div class="txt-box-item col-3">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <h2>PRIVACY<br>BY DESIGN</h2>
+                                <p>PbD Compliance Check</p>
+                                <p>Operationalising PbD</p>
+                                <p>Privacy Engineering</p>
+                                <p>Privacy Enhancing Technologies</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <h2>IMPACT<br>ASSESSMENTS</h2>
-                            <p>Privacy Impact Assessment</p>
-                            <p>DPIA</p>
-                            <p>InfoSec Assessment</p>
-                            <p>Enterprise Risk Gap Analysis</p>
+                    <div class="txt-box-item col-3">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <h2>IMPACT<br>ASSESSMENTS</h2>
+                                <p>Privacy Impact Assessment</p>
+                                <p>DPIA</p>
+                                <p>InfoSec Assessment</p>
+                                <p>Enterprise Risk Gap Analysis</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <h2>3RD-PARTY<br>RISKS</h2>
-                            <p>3rd-Party Risk Mapping</p>
-                            <p>Vendor GDPR Compliance</p>
-                            <p>Vendor Assessment Framework</p>
-                            <p>Periodic Vendor Checks</p>
+                    <div class="txt-box-item col-3">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <h2>3RD-PARTY<br>RISKS</h2>
+                                <p>3rd-Party Risk Mapping</p>
+                                <p>Vendor GDPR Compliance</p>
+                                <p>Vendor Assessment Framework</p>
+                                <p>Periodic Vendor Checks</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <h2>INCIDENT<br>RESPONSE</h2>
-                            <p>Data Breach Investigation</p>
-                            <p>Response Plan Preparation</p>
-                            <p>Data Breach Reporting</p>
-                            <p>Business Impact Analysis</p>
+                    <div class="txt-box-item col-3">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <h2>INCIDENT<br>RESPONSE</h2>
+                                <p>Data Breach Investigation</p>
+                                <p>Response Plan Preparation</p>
+                                <p>Data Breach Reporting</p>
+                                <p>Business Impact Analysis</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -287,7 +295,7 @@
                                 <img src="images/about-us-case-study-img-03.jpg" alt="Trace" class="img-fluid">
                             </div>
                             <div class="txt-holder">
-                                <h3>DPIA for an eCommerce Fidelity Program</h3>
+                                <h3>Data Sharing for a Pharma Company</h3>
                             </div>
                         </div>
                     </a>                

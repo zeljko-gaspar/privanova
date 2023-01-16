@@ -34,6 +34,8 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="container mw-710">
                 <div class="row txt-editor-content">
                     <div class="col-12">
                        <h3>Challenge</h3>
@@ -44,58 +46,66 @@
                        <p>With expertise in cybercrime, information security, <a href="http://localhost/privanova/services/">privacy and data protection</a>, Privanova brings a myriad of experience toward alleviating illicit money flows through the TRACE project. In addition, our involvement in similar project of interest to the international law enforcement community such as <a href="http://localhost/privanova/eu-projects/cc-driver/">CC-DRIVER</a>, <a href="http://localhost/privanova/eu-projects/iot-ngin/">IoT-NGIN</a> and <a href="http://localhost/privanova/eu-projects/marvel/">MARVEL</a> will be of additional benefit to TRACE.</p>
                         <p>Drawing upon our professional experiences from <a href="https://www.interpol.int/">INTERPOL</a> and network of high-level LEA officials we created during our tenure there, we will support the operation of the consortium by ensuring the interaction between them and the LEAs. This will enable both sides to address the issues related to the development of tools for locating and mapping hidden service directories, forensic analysis and data provenance models. Besides, Privanova will establish an ethics advisory board comprising of four external ethicists as well as two consortium partners.</p>
                         <p>In collaboration with LEA partners, Stakeholder Board members and other law enforcement experts we will invite to contribute to the project, Privanova will evaluate and maintain the ethics compliance across all consortium activities. This will directly benefit the technical partners responsible for ensuring that illicit money flows are detected early, their threat level is analysed, and preventative actions are enabled to reduce the negative impact of such flows.&nbsp; The project officially started on July 1<sup>st</sup> 2021, with the <a href="http://localhost/privanova/tackling-the-illicit-financial-flows-the-trace-project-starts/">TRACE Kick Off meeting</a> being held virtually several days later.</p>
-                       <p><img src="images/eu-logo.png" alt="Privanova" class="img-fluid" />This project has received funding from the European Union’s Horizon 2020 research and Innovation programme under grant agreement N°101022004. All information on this website reflects only the authors’ view. The Agency and the Commission are not responsible for any use that may be made of the information this website contains.</p>
+                       <p><img src="images/eu-logo.png" alt="Privanova" class="float-left" />This project has received funding from the European Union’s Horizon 2020 research and Innovation programme under grant agreement N°101022004. All information on this website reflects only the authors’ view. The Agency and the Commission are not responsible for any use that may be made of the information this website contains.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="services-section">
-            <div class="services-container container-fluid">
-                <div class="services-content row">
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/call-icon.png" alt="Privanova" class="img-fluid" />
+        <section class="txt-icons-box-section main-bg-color">
+            <div class="container-fluid">
+                <div class="row icons-box-content">
+                    <div class="col-3 icons-box-item">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <div class="img-holder">
+                                    <i class="fa fa-calendar-check-o"></i>
+                                </div>
+                                <h2>Call</h2>
+                                <p>SU-SEC-2020</p>
                             </div>
-                            <h2>Call</h2>
-                            <p>SU-SEC-2020</p>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/grant-icon.png" alt="Privanova" class="img-fluid" />
+                    <div class="col-3 icons-box-item">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <div class="img-holder">
+                                    <i class="fa fa-pencil-square-o"></i>
+                                </div>
+                                <h2>Grant ID</h2>
+                                <p>101022004</p>
                             </div>
-                            <h2>Grant ID</h2>
-                            <p>101022004</p>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/duration-icon.png" alt="Privanova" class="img-fluid" />
+                    <div class="col-3 icons-box-item">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <div class="img-holder">
+                                    <i class="fa fa-calendar"></i>
+                                </div>
+                                <h2>Duration</h2>
+                                <p>1 July 2021- 30 July 2024</p>
                             </div>
-                            <h2>Duration</h2>
-                            <p>1 July 2021- 30 July 2024</p>
                         </div>
                     </div>
-                    <div class="services-item col-3">
-                        <div class="txt-holder">
-                            <div class="img-holder">
-                                <img src="images/euro-icon.png" alt="Privanova" class="img-fluid" />
+                    <div class="col-3 icons-box-item">
+                        <div class="txt-box-item-wrapper">
+                            <div class="txt-holder">
+                                <div class="img-holder">
+                                    <i class="fa fa-eur"></i>
+                                </div>
+                                <h2>Budget</h2>
+                                <p>€ 6 980 082,50</p>
                             </div>
-                            <h2>Budget</h2>
-                            <p>€ 6 980 082,50</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="cta-section">
+        <section class="cta-section second-bg-color">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <a href="javascript:;">Download PDF</a>
+                        <a class="white-bg border-btn" href="javascript:;">Download PDF</a>
                     </div>
                 </div>
             </div>

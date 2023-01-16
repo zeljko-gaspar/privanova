@@ -57,7 +57,7 @@
         </section>
         <section class="txt-box-section">
             <div class="container-fluid">
-                <div class="different-colors row">
+                <div class="txt-box-content different-colors row">
                     <div class="col-3 txt-box-item">
                         <div class="txt-box-item-wrapper">
                             <div class="txt-holder">
