@@ -1,59 +1,58 @@
 	<!-- Footer-->
 	<footer class="footer-section">
-		<div class="container footer-container">
-			<div class="row top-footer-sectinon">
-				<div class="col-3 footer-content-item">
-					<div class="footer-logo-holder">
-						<img src="images/logo.svg" alt="Privanova" class="img-fluid" />
-					</div>
+		<div class="footer-divider"></div>
+		<div class="container">
+			<div class="row top-footer-section">
+				<div class="col-3 footer-logo-holder p-0">
+					<img src="images/logo.svg" alt="Privanova" class="img-fluid" />
 				</div>
-				<div class="col-8">
+				<div class="col-9 footer-links-content">
 					<div class="row">
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Pages</h3></li>
-								<li><a href="javascript:;">Home</a></li>
-								<li><a href="javascript:;">About Us</a></li>
-								<li><a href="javascript:;">Services</a></li>
-								<li><a href="javascript:;">EU-Projects</a></li>
-								<li><a href="javascript:;">Resources</a></li>
+								<li><a href="index.php">Home</a></li>
+								<li><a href="about-us.php">About Us</a></li>
+								<li><a href="services-group.php">Services</a></li>
+								<li><a href="eu-projects.php">EU-Projects</a></li>
+								<li><a href="resources-group.php">Resources</a></li>
 							</ul>
 						</div>
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Services</h3></li>
-								<li><a href="javascript:;">GDPR Consulting</a></li>
-								<li><a href="javascript:;">DPO On Demand</a></li>
-								<li><a href="javascript:;">Risk Management</a></li>
-								<li><a href="javascript:;">Privacy Training</a></li>
+								<li><a href="services-group.php#gdpr-consulting">GDPR Consulting</a></li>
+								<li><a href="services-group.php#dpo-on-demand">DPO On Demand</a></li>
+								<li><a href="services-group.php#risk-management">Risk Management</a></li>
+								<li><a href="services-group.php#privacy-training">Privacy Training</a></li>
 							</ul>
 						</div>
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Projects</h3></li>
-								<li><a href="javascript:;">CC-DRIVER</a></li>
-								<li><a href="javascript:;">AI4HealthSec</a></li>
-								<li><a href="javascript:;">CYRENE</a></li>
-								<li><a href="javascript:;">MARVEL</a></li>
-								<li><a href="javascript:;">IoT-NGIN</a></li>
+								<li><a href="project-full.php">CC-DRIVER</a></li>
+								<li><a href="project-full.php">AI4HealthSec</a></li>
+								<li><a href="project-full.php">CYRENE</a></li>
+								<li><a href="project-full.php">MARVEL</a></li>
+								<li><a href="project-full.php">IoT-NGIN</a></li>
 							</ul>
 						</div>
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Address</h3></li>
 								<li><a target="_blank" href="https://goo.gl/maps/c6bttmWvXpJG12fZ6">34, avenue des Champs-Elysées<br> 75008 Paris, France</a></li>
 							</ul>
 						</div>
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Email</h3></li>
 								<li><a href="mailto:contact@privanova.com">contact[at]privanova.com</a></li>
 							</ul>
 						</div>
-						<div class="col-4">
+						<div class="col-4 footer-link-item">
 							<ul>
 								<li><h3>Social</h3></li>
-								<li><a target="_blank" rel="noreferrer" href="javascript:;">LinkedIn</a></li>
+								<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/privanova">LinkedIn</a></li>
 								<li><a target="_blank" rel="noreferrer" href="javascript:;">Twitter</a></li>
 							</ul>
 						</div>
@@ -61,13 +60,13 @@
 				</div>
 			</div>
 			<div class="row bottom-footer-section">
-				<div class="col-6 copyright-holder">
+				<div class="col-6 copyright-holder p-0">
 					<p>© Privanova SAS 2023</p>
 				</div>
-				<div class="col-6 footer-icons-holde">
+				<div class="col-6 footer-icons-holder p-0">
 					<ul>
-						<li><a href="http://localhost/privanova/#"><img src="images/twitter-icon.png" alt="Twitter" class="img-fluid" /></a></li>
-						<li><a href="https://www.linkedin.com/company/privanova"><img src="images/linkedin-icon.png" alt="LinkedIn" class="img-fluid" /></a></li>
+						<li><a target="_blank" rel="noreferrer" href="javascript:;"><i class="fa fa-twitter"></i></a></li>
+						<li><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/privanova"><i class="fa fa-linkedin"></i></a></li>
 					</ul>
 				</div>
 			</div>

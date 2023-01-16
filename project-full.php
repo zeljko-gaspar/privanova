@@ -14,9 +14,9 @@
     <?php include('templates/header.php'); ?>
     <main>
         <section class="hero-section">
-            <div class="container-fluid hero-container">
-                <div class="row hero-content">
-                    <div class="col-12 hero-img-item">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 img-holder">
                        <img src="images/project-full-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                 </div>
@@ -218,18 +218,13 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-
-
-
-        
-        <section class="cta-section">
+        </section>       
+        <section class="cta-section second-bg-color">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <h2>Question about this project?</h2>
-                        <a href="javascript:;">Contact us</a>
+                        <a class="white-bg border-btn" href="javascript:;">Contact us</a>
                     </div>
                 </div>
             </div>

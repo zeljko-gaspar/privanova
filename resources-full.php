@@ -14,9 +14,9 @@
     <?php include('templates/header.php'); ?>
     <main>
         <section class="hero-section">
-            <div class="container-fluid hero-container">
-                <div class="row hero-content">
-                    <div class="col-12 hero-img-item">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="img-holder">
                        <img src="images/resources-full-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                 </div>

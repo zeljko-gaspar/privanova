@@ -14,15 +14,15 @@
     <?php include('templates/header.php'); ?>
     <main>
         <section class="hero-section">
-            <div class="container-fluid hero-container">
-                <div class="row hero-content">
-                    <div class="col-12 hero-img-item">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="img-holder">
                        <img src="images/eu-projects-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
-                    <div class="col-12 hero-txt-item">
+                    <div class="txt-holder">
                         <h1>EU Projects</h1>
-                        <h2>End-to-End Life<br>Cycle Management</h2>
-                        <a href="contact-us.php">Contact us</a>
+                        <h2 class="mb-40">End-to-End Life<br>Cycle Management</h2>
+                        <a class="border-btn" target="_blank" href="mailto:contact@localhost/privanova">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -30,25 +30,27 @@
         <section class="description-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="description-item col-6">
                         <p>Privanova is an innovative company investing in R&amp;D. We operate at the interface between <strong>privacy</strong>, <strong>technology</strong> and <strong>policy</strong>. Our R&amp;D activities focus on the analysis of legal, ethical and technological issues, often from the <strong>law enforcement</strong> perspective.</p>
                     </div>
-                    <div class="col-6">
+                    <div class="description-item col-6">
                         <p>Our team includes former <strong>INTERPOL</strong> and <strong>UN</strong> professionals experienced in managing the whole EU project life-cycle. Together, our consultants have initiated, managed or successfully participated in <strong>more than 50</strong> FP7, H2020 and Horizon Europe consortia.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="competences-section">
+        <section class="img-txt-section">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="img-holder col-6">
+                    <div class="img-holder col-6 p-0">
                         <img src="images/eu-projects-competences-section-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
-                    <div class="txt-holder col-6">
-                        <h2>Core competences</h2>
-                        <p>As consortium partners, we can independently run or help you lead activities such as: concept note development, consortium building, DoW preparation, proposal submission and evaluation as well as project communication, dissemination and exploitation.</p>
-                        <a href="javascript:;">Management Services</a>
+                    <div class="txt-holder col-6 p-0 d-flex align-items-center main-bg-color">
+                        <div class="txt-holder-wrapper">
+                            <h2>Core competences</h2>
+                            <p>As consortium partners, we can independently run or help you lead activities such as: concept note development, consortium building, DoW preparation, proposal submission and evaluation as well as project communication, dissemination and exploitation.</p>
+                            <a class="border-btn" target="_blank" href="mailto:contact@localhost/privanova">Management Services</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -87,16 +89,18 @@
                 </div>
             </div>
         </section>
-        <section class="competences-section">
+        <section class="img-txt-section">
             <div class="container-fluid">
                 <div class="row">
-                    <div class="img-holder col-6">
+                    <div class="img-holder col-6 order-md-2 p-0">
                         <img src="images/eu-projects-expertise-section.jpg" alt="Privanova" class="img-fluid" />
                     </div>
-                    <div class="txt-holder col-6">
-                        <h2>Subject Matter Expertise</h2>
-                        <p>We bring our subject matter expertise and experience in EU project management to the consortia we participate in.</p>
-                        <p>Besides legal and ethics compliance, we provide law enforcement representation, perform Privacy Impact Assessments, implement Privacy by Design, consult on issues such as cybercrime, terrorism etc.</p>
+                    <div class="txt-holder col-6 p-0 d-flex align-items-center main-bg-color">
+                        <div class="txt-holder-wrapper">
+                            <h2>Subject Matter Expertise</h2>
+                            <p>We bring our subject matter expertise and experience in EU project management to the consortia we participate in.</p>
+                            <p>Besides legal and ethics compliance, we provide law enforcement representation, perform Privacy Impact Assessments, implement Privacy by Design, consult on issues such as cybercrime, terrorism etc.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -405,12 +409,12 @@
                 </div>
             </div>
         </section>
-        <section class="cta-section">
+        <section class="cta-section second-bg-color">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <h2>Looking for a project partner? We can help!</h2>
-                        <a href="javascript:;">Get our Horizon Europe Brochure</a>
+                        <a class="white-bg border-btn" href="javascript:;">Get our Horizon Europe Brochure</a>
                     </div>
                 </div>
             </div>

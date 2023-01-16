@@ -14,9 +14,9 @@
     <?php include('templates/header.php'); ?>
     <main>
         <section class="hero-section">
-            <div class="container-fluid hero-container">
-                <div class="row hero-content">
-                    <div class="col-12 hero-img-item">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="img-holder">
                        <img src="images/network-hero-img.jpg" alt="Privanova" class="img-fluid" />
                     </div>
                 </div>
@@ -132,12 +132,12 @@
                 </div>
             </div>
         </section>
-        <section class="cta-section">
+        <section class="cta-section second-bg-color">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
                         <h2>Join our network</h2>
-                        <a href="javascript:;">Download PDF</a>
+                        <a class="white-bg border-btn" href="javascript:;">Download PDF</a>
                     </div>
                 </div>
             </div>
