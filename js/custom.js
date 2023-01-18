@@ -24,19 +24,35 @@ $(document).ready(function(){
 	});
     $(window).on('resize scroll load', function() {
         // on viewport add class
-        $('.z-animate').each(function() {
-          var activeElement = $(this).attr('class');
-        if ($(this).isInViewport()) {
-          $(this).addClass('active');
-        } else {
-          $(this).removeClass('active');
-        }
-        }); 
+        // $('.z-animate').each(function() {
+        //     var activeElement = $(this).attr('class');
+        //     if ($(this).isInViewport()) {
+        //         $(this).addClass('active');
+        //     } else {
+        //         $(this).removeClass('active');
+        //     }
+        // });
         // scroll add class
-        if ($(window).scrollTop() > 20) {
-          $('body').addClass('scrolled');
+        if ($(window).scrollTop() > 200) {
+            $('nav.navbar').addClass('main-bg-color');
         }else{
-          $('body').removeClass('scrolled');
+            $('nav.navbar').removeClass('main-bg-color');
         }
       });
+      if($('.waiting').length){
+        var words = [
+            'insights',
+            'news',
+            'white papers',
+            'project updates',
+            'expert opinions'
+        ], i = 0;
+
+        setInterval(function(){
+            $('.is-word').fadeOut(function(){
+                $(this).html(words[i=(i+1)%words.length]).fadeIn();
+            });
+           // 2 seconds
+        }, 2000);
+      }
 });

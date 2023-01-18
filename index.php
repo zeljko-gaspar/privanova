@@ -140,6 +140,7 @@
                 </div>
             </div>
         </section>
+
         <section class="img-txt-section">
             <div class="container-fluid">
                 <div class="row">
@@ -157,6 +158,7 @@
                 </div>
             </div>
         </section>
+
         <section class="card-section">
             <div class="container">
                 <div class="row">

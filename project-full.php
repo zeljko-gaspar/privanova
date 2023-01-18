@@ -113,7 +113,7 @@
         <section class="">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
+                    <div class="col-8 offset-2">
                         <div class="heading-holder">
                             <h2>Consortium</h2>
                         </div>
@@ -192,43 +192,43 @@
             </div>
         </section>
         <section class="">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/cordis-icon.png" alt="Privanova" class="img-fluid" />
+                                <i class="fa fa-star" style="color: gold"></i>
                             </div>
-                            <a href="javascript:;">Cordis</a>
+                            <a class="border-btn" href="javascript:;">Cordis</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/homepage-icon.png" alt="Privanova" class="img-fluid" />
+                                <i class="fa fa-home"></i>
                             </div>
-                            <a href="javascript:;">Homepage</a>
+                            <a class="border-btn" href="javascript:;">Homepage</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/twitter-icon.png" alt="Privanova" class="img-fluid" />
+                                <i class="fa fa-twitter"></i>
                             </div>
-                            <a href="javascript:;">Twitter</a>
+                            <a class="border-btn" href="javascript:;">Twitter</a>
                         </div>
                     </div>
                     <div class="services-item col-3">
                         <div class="txt-holder">
                             <div class="img-holder">
-                                <img src="images/linkedin-icon.png" alt="Privanova" class="img-fluid" />
+                                <i class="fa fa-linkedin"></i>
                             </div>
-                            <a href="javascript:;">Linkedin</a>
+                            <a class="border-btn" href="javascript:;">Linkedin</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>       
+        </section>
         <section class="cta-section second-bg-color">
             <div class="container-fluid">
                 <div class="row">

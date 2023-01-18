@@ -8,6 +8,61 @@
 <?php include('templates/head.php'); ?>
 <!-- custom css -->
 <link href="css/custom.css" rel="stylesheet">
+<style>
+.filter-section ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  gap: 0;
+  border-collapse: collapse;
+}
+.filter-section ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  padding: 4px 10px;
+  border: 1px solid rgba(235,235,235,.8);
+  color: #333333;
+}
+.filter-section ul li a {
+  color: #333;
+}
+.filter-section ul li a:hover {
+    background: #333;
+    color: #fff;
+}
+.filter-section ul li.active {
+  background: #333;
+  color: #fff;
+}
+.filter-section ul li.active a {
+  color: #fff;
+}
+.resources-search .form-control {
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid #333;
+	background: none;
+	padding: 20px 0;
+	color: #000;
+	font-size: 16px;
+}
+.resources-search .btn {
+	background: none;
+	border-radius: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	z-index: 11;
+	padding: 20px 0;
+}
+.resources-search .btn:hover {
+    opacity: 0.6;
+}
+
+</style>
 </head>
 
 <body class="network-page">
@@ -18,6 +73,16 @@
                 <div class="row">
                     <div class="img-holder">
                        <img src="images/resources-hero-img.jpg" alt="Privanova" class="img-fluid" />
+                    </div>
+                    <div class="txt-holder">
+                        <h1>Resources</h1>
+                        <h2 class="mb-40">
+                            PRIVANOVA
+                            <span class="cd-words-wrapper waiting">
+                                <b class="is-word">insights</b>
+                            </span>
+                        </h2>
+                        <a class="border-btn" target="_blank" href="mailto:contact@privanova.com">Contact us</a>
                     </div>
                 </div>
             </div>
@@ -224,12 +289,19 @@
                         </div>
                     </a>
                 </div>
+            </div>
+        </section>
+        <section class="resources-search cta-section main-bg-color">
+            <div class="container-fluid">
                 <div class="row">
-                    <div class="col-12">
-                        <form action="javascript:;" class="">
-                            <input class="form-control" type="search" placeholder="Search">
-                            <button class="btn btn-outline-success" type="submit"><img src="images/search-icon.svg" alt="" class="img-fluid" /></button>                            
-                        </form>
+                    <div class="col-12 text-center">
+                        <div class="max650 mx-auto">
+                            <h2>Looking for something specific?</h2>
+                            <form action="javascript:;" class="" style="position: relative;">
+                                <input class="form-control" type="search" placeholder="Search">
+                                <button class="btn btn-outline-success" type="submit"><img src="images/search-icon.svg" alt="" class="img-fluid" /></button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -238,8 +310,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
-                        <h2>Join our network</h2>
-                        <a class="white-bg border-btn" href="javascript:;">Download PDF</a>
+                        <h2>Interested in collaboration?</h2>
+                        <a class="white-bg border-btn" href="mailto:contact@privanova.com">Contact Us!</a>
                     </div>
                 </div>
             </div>
