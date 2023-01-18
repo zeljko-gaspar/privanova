@@ -8,61 +8,6 @@
 <?php include('templates/head.php'); ?>
 <!-- custom css -->
 <link href="css/custom.css" rel="stylesheet">
-<style>
-.filter-section ul {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  gap: 0;
-  border-collapse: collapse;
-}
-.filter-section ul li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 18px;
-  padding: 4px 10px;
-  border: 1px solid rgba(235,235,235,.8);
-  color: #333333;
-}
-.filter-section ul li a {
-  color: #333;
-}
-.filter-section ul li a:hover {
-    background: #333;
-    color: #fff;
-}
-.filter-section ul li.active {
-  background: #333;
-  color: #fff;
-}
-.filter-section ul li.active a {
-  color: #fff;
-}
-.resources-search .form-control {
-	border-radius: 0;
-	border: none;
-	border-bottom: 1px solid #333;
-	background: none;
-	padding: 20px 0;
-	color: #000;
-	font-size: 16px;
-}
-.resources-search .btn {
-	background: none;
-	border-radius: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
-	z-index: 11;
-	padding: 20px 0;
-}
-.resources-search .btn:hover {
-    opacity: 0.6;
-}
-
-</style>
 </head>
 
 <body class="network-page">
